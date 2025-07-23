@@ -11,13 +11,6 @@ This entire stack is orchestrated with a single `docker-compose.yml` file:
 -   **Loki**: Aggregates logs from all containers. It's designed to be highly efficient and integrates perfectly with Prometheus.
 -   **Grafana**: The unified visualization layer. It comes pre-configured with Prometheus and Loki as data sources, allowing you to build dashboards that correlate metrics (like an error spike) with the corresponding logs in one click.
 
-## Key Skills Demonstrated
-
--   **Observability Engineering**: Building an integrated stack for metrics, logs, and traces (the "three pillars of observability").
--   **Container Management**: Orchestrating a multi-service application using Docker Compose.
--   **SRE Tooling**: Expertise with Prometheus, Grafana, and Loki—the de-facto standard for cloud-native monitoring.
--   **System Integration**: Configuring services to work together seamlessly for a unified view of system health.
-
 ## How to Run This Project
 
 **Prerequisites**: You must have [Docker](https://www.docker.com/products/docker-desktop/) installed.
